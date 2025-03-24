@@ -3,14 +3,6 @@
 version = 4
 
 [[package]]
-name = "WowDualBox"
-version = "0.1.0"
-dependencies = [
- "gtk",
- "winapi",
-]
-
-[[package]]
 name = "atk"
 version = "0.18.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -357,6 +349,13 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn 2.0.100",
+]
+
+[[package]]
+name = "gtk_windows_kb_hook"
+version = "0.1.0"
+dependencies = [
+ "gtk",
 ]
 
 [[package]]
